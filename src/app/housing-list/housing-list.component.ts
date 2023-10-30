@@ -18,15 +18,9 @@ export class HousingListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  searchHousingLocations(searchText: string) {
-    if (!searchText) return;
-
-    this.results = this.locationList.filter((location: any) => location.city.toLowerCase().includes(searchText.toLowerCase()));
-  }
+  searchHousingLocations(searchText: string) {  }
 
   selectHousingLocation(location: HousingLocation) {
     this.locationSelectedEvent.emit(location);
   }
 }
-searchHousingLocations() {}
-

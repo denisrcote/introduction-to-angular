@@ -23,4 +23,3 @@ describe('HousingListComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-searchHousingLocations(){}

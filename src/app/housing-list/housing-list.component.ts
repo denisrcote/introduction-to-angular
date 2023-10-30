@@ -28,3 +28,5 @@ export class HousingListComponent implements OnInit {
     this.locationSelectedEvent.emit(location);
   }
 }
+searchHousingLocations() {}
+

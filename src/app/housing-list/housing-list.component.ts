@@ -18,7 +18,9 @@ export class HousingListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  searchHousingLocations(searchText: string) {  }
+  searchHousingLocations(searchText: string) { 
+    console.log(searchText)
+   }
 
   selectHousingLocation(location: HousingLocation) {
     this.locationSelectedEvent.emit(location);
